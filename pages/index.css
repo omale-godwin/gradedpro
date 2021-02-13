@@ -1,0 +1,42 @@
+
+.container {
+    
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+div.col-12.col-md-4.mb-1{
+margin: 0px 0px 0px 4px;
+padding: 0px 0px 15px;
+}
+.teature{
+    margin-top: 0%;
+}
+h2.service-title{
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    text-align: center;
+    font-size: x-large;
+}
+p {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 26px;
+    color: #5C5A5A;
+   font: 24px
+}
+Link[href*=\#] {
+    margin: 0;
+    padding: 0;
+    color: #c73176;
+    letter-spacing: -.02em;
+}
+.serbtn{
+    background-color: #663399;
+}
+button{
+    background-color: #663399;
+}
