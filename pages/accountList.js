@@ -83,7 +83,7 @@ export async function getStaticProps(context) {
   }
 
   if (!networkErr) {
-    posts = await AccountingModel.find({});
+    posts = await AccountingModel.find({}).limit(250);
   
 
     posts = JSON.parse(JSON.stringify(posts));
