@@ -37,7 +37,8 @@ export default function Topbar() {
                         </div>
                     </div>
                 </div>
-               
+                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    
                     <div className="right-phone-box">
                         <p>Call US :- <a href="#">+234 903216744</a></p>
                     </div>
