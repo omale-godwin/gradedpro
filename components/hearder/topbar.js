@@ -37,14 +37,7 @@ export default function Topbar() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <div className="custom-select-box">
-                        <select id="basic" className="selectpicker show-tick form-control" data-placeholder="$ USD">
-						<option>¥ JPY</option>
-						<option>$ USD</option>
-						<option>€ EUR</option>
-					</select>
-                    </div>
+               
                     <div className="right-phone-box">
                         <p>Call US :- <a href="#">+234 903216744</a></p>
                     </div>
@@ -59,7 +52,7 @@ export default function Topbar() {
                             </ul>
                             </li>
                             <li><a href="/source">Source Code</a></li>
-                            <li><a href="/contact">Contact Us</a></li>
+                            <li><a href="/contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
