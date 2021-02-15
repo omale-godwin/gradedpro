@@ -1,0 +1,60 @@
+import React from 'react'
+import dbConnect from '../components/connection/database';
+import AccountingModel from '../components/models/accounting';
+import parser from 'html-react-parser';
+
+
+const AccountingSingle = ({post}) => {
+    return (
+        <div>
+          
+    <div className="all-title-box">
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-12">
+                    <h2>{post[0].title || "hmmm..."}</h2>
+                    <ul className="breadcrumb">
+                        <li className="breadcrumb-item"><a href="#">ABSTRACT</a></li>
+                        <li className="breadcrumb-item active">DETAILS</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div className="about-box-main">
+        <div className="container">
+            <div className="container">
+            <div className="post-heading">
+                 
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-6">
+                  
+                  <h4>  <p>{parser(post[0].content || "hmmm...")}</p></h4>
+                </div>
+                <div className="col-lg-6">
+                    <div className="banner-frame"> <img className="img-thumbnail img-fluid" src="images/about-img.jpg" alt="" />
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    )
+}
+
+
+
+export default AccountingSingle;
+
+
+
+export async function getServerSideProps(context) {
+    await dbConnect();
+  
+    let post = await AccountingModel.find({ _id: context.params.accountingSingle });
+    post = JSON.parse(JSON.stringify(post));
+  
+    return { props: { post } };
+  }

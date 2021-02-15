@@ -15,9 +15,7 @@ padding: 0px 0px 15px;
     margin-top: 0%;
 }
 h2.service-title{
-    color: #007bff;
-    text-decoration: none;
-    background-color: transparent;
+   color: #c73176;
     text-align: center;
     font-size: x-large;
 }
@@ -37,6 +35,6 @@ Link[href*=\#] {
 .serbtn{
     background-color: #663399;
 }
-button{
-    background-color: #663399;
+button.list-group-item{
+color: #a23911;
 }
