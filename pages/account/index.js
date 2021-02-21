@@ -62,7 +62,7 @@ const AccountingLi = ({ posts }) => {
 export default AccountingLi;
 
 export async function getServerSideProps(context) {
-  const res = await fetch("http://localhost:3000/api/accounting");
+  const res = await fetch("https://gradedproject.vercel.app//api/accounting");
   const posts = await res.json();
   console.log(posts);
   return {
