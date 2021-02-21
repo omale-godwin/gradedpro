@@ -24,53 +24,50 @@ const AccountLists = ({posts}) => {
             </div>
         </div>
     </div>
-    <div className="wishlist-box-main">
-        <div className="container">
-            <div className="row">
-                <div className="col-lg-12">
-                <div className="strip">
-      <div className="container pt-6 pb-6 pb-md-10">
-        <div className="row justify-content-start">
-
-        <ul>
-       <InfiniteScroll dataLength={posts.length}  next={()=> setPge(page + 1)}
-  hasMore={true}
-  loader={<h4>Loading...</h4>}
-  endMessage={
-    <p style={{ textAlign: 'center' }}>
-      <b>Yay! You have seen it all</b>
-    </p>
-  }>
-            {posts.map((document, index) => ( 
- 
-              <div key={index} className="list-group" >
-                <li key={index}>
-               <ul>
-                 <li  style={{listStyleType: "none", color: "red"}}>
-                  <h4 >
-                  <Link key={index } onClick={(e) =>console.log(document._id)} className="list-group-item " href={`${document._id}`}>{document.title}</Link>
- 
-                  </h4>
-                  </li>
-                  </ul>
-                </li>
-              </div>
-            ))}
-             </InfiniteScroll>
-          </ul>
-        </div>
-      </div>
-    </div>
 
     
-                    </div>
-            </div>
-        </div>
+    
+
+
+    <div className="services-box-main">
+     <div className="container">
+         <div className="row "> 
+        
+       {posts.map((document, index) => ( 
+   
+ <div key={index } className="col-sm-12 col-lg-12">
+                 <div key={index } className="service-block-inner">
+                 <h4 className="service-title">
+                 <Link key={index } className="list-group-item " href={`${document._id}`}><a>{document.title}</a></Link>
+                 
+               </h4>
+                </div>
+ </div>
+
+            ))}
+            
+         
+      
+</div>
+</div>
+<div class="container">
+  <div class="row">
+    <div class="col text-center">
+    <button onClick={loadmore} style={{fontSize: '34px', color: "red"}} class="btn btn-default b">Load More</button>
     </div>
+  </div>
+</div>
+</div>
+
+
         </div>
     )
 }
 export default AccountLists
+
+function loadmore(){
+  console.log("conneting");
+}
 
 
 export async function getStaticProps(context) {

@@ -8,9 +8,11 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "html-react-parser": "^1.2.4",
     "mongoose": "^5.11.16",
     "next": "10.0.6",
+    "next-images": "^1.7.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-img-carousel": "^2.0.0",

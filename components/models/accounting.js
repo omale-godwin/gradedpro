@@ -2,15 +2,16 @@ import mongoose from "mongoose";
 
 const AccountingModel = new mongoose.Schema({
   title: {
-    type: String
+    type: String,
   },
   content: {
-    type: String
+    type: String,
   },
-  
+
   id: {
-    type: Number
-  }
+    type: Number,
+  },
 });
 
-export default mongoose.models.accountings || mongoose.model("accountings", AccountingModel);
+export default mongoose.models.accountings ||
+  mongoose.model("accountings", AccountingModel);
