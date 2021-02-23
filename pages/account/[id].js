@@ -54,7 +54,7 @@ const AccountingSinglec = ({ post }) => {
 export default AccountingSinglec;
 
 export async function getStaticPaths() {
-  const posts = (await import("../../files/biology.json")).default;
+  const posts = (await import("../../files/accountings.json")).default;
 
   const paths = posts.map((post) => ({
     params: { id: post.id.toString() },
@@ -68,7 +68,7 @@ export async function getStaticPaths() {
 }
 
 export async function getStaticProps(context) {
-  const posts = (await import("../../files/biology.json")).default;
+  const posts = (await import("../../files/accountings.json")).default;
   const idy = context.params.id;
   const post = posts[idy - 1];
 

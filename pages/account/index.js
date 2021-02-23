@@ -62,7 +62,7 @@ const AccountingLi = ({ posts }) => {
 export default AccountingLi;
 
 export async function getStaticProps() {
-  const posts = (await import("../../files/biology.json")).default;
+  const posts = (await import("../../files/accountings.json")).default;
 
   return {
     props: {
