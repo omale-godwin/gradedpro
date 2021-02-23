@@ -62,7 +62,7 @@ const ArchitectList = ({ posts }) => {
 export default ArchitectList;
 
 export async function getServerSideProps(context) {
-  const res = await fetch("http://localhost:3000/api/architech");
+  const res = await fetch(`http://localhost:3000/api/architech`);
   const posts = await res.json();
   console.log(posts);
   return {

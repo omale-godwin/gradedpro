@@ -3,12 +3,15 @@ import AccountingModel from "../../components/models/accounting";
 
 export default async function (req, res) {
   var method = req.method;
+  const page = req.page;
+  const size = 10;
 
   try {
     await dbConnect();
   } catch (error) {
     console.log("error connecting to database", error);
   }
+
   if (method === "POST") {
     try {
       let accounts = await AccountingModel.create(req.body);
@@ -26,7 +29,7 @@ export default async function (req, res) {
 
   if (method === "GET") {
     try {
-      let accounts = await AccountingModel.find({}).limit(10);
+      let accounts = await AccountingModel.find({}).limit(5);
       accounts = await JSON.parse(JSON.stringify(accounts));
 
       res.status(200).send(accounts);

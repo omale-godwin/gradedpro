@@ -1,9 +1,8 @@
 import React from "react";
-import dbConnect from "../../components/connection/database";
-import AccountingModel from "../../components/models/accounting";
 import parser from "html-react-parser";
 
 const AccountingSinglec = ({ post }) => {
+  const { title, content } = post;
   return (
     <div>
       <div className="all-title-box">
@@ -11,7 +10,7 @@ const AccountingSinglec = ({ post }) => {
           <div className="row">
             <div className="col-lg-12">
               <h2 style={{ color: "white" }}>
-                <a>{parser(post[0].title || "hmmm...")}</a>
+                <a>{parser(title || "hmmm...")}</a>
               </h2>
               <ul className="breadcrumb">
                 <li className="breadcrumb-item">
@@ -32,7 +31,7 @@ const AccountingSinglec = ({ post }) => {
             <div className="col-lg-6">
               <h4>
                 {" "}
-                <p>{parser(post[0].content || "hmmm...")}</p>
+                <p>{parser(content || "hmmm...")}</p>
               </h4>
             </div>
             <div className="col-lg-6">
@@ -54,11 +53,29 @@ const AccountingSinglec = ({ post }) => {
 
 export default AccountingSinglec;
 
-export async function getServerSideProps(context) {
-  await dbConnect();
+export async function getStaticPaths() {
+  const posts = (await import("../../files/biology.json")).default;
 
-  let post = await AccountingModel.find({ _id: context.params.index });
-  post = JSON.parse(JSON.stringify(post));
+  const paths = posts.map((post) => ({
+    params: { id: post.id.toString() },
+  }));
+  console.log(paths);
 
-  return { props: { post } };
+  return {
+    paths,
+    fallback: false,
+  };
 }
+
+export async function getStaticProps(context) {
+  const posts = (await import("../../files/biology.json")).default;
+  const idy = context.params.id;
+  const post = posts[idy - 1];
+
+  return {
+    props: {
+      post,
+    },
+  };
+}
+22328187852;

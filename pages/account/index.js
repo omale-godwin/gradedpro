@@ -2,16 +2,11 @@ import dbConnect from "../../components/connection/database";
 
 import parser from "html-react-parser";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 
 const AccountingLi = ({ posts }) => {
   const [isPreview, setIsPreview] = useState(1);
-  const [count, setCount] = useState(0);
-  function loadmore() {
-    setCount(count + 1);
-    console.log(count);
-  }
 
   return (
     <div>
@@ -41,8 +36,8 @@ const AccountingLi = ({ posts }) => {
                     <Link
                       key={index}
                       className="list-group-item "
-                      href={`/account/${document._id}`}>
-                      <a>{parser(document.title)}</a>
+                      href={`/account/${document.id}`}>
+                      <a>{parser(document.title.replace(/\n/gi, "<br />"))}</a>
                     </Link>
                   </h4>
                 </div>
@@ -55,16 +50,20 @@ const AccountingLi = ({ posts }) => {
             <div className="col text-center"></div>
           </div>
         </div>
+        <div className="text-center">
+          <button className="btn btn-danger">
+            Load More Acoounting Project
+          </button>
+        </div>
       </div>
     </div>
   );
 };
 export default AccountingLi;
 
-export async function getServerSideProps(context) {
-  const res = await fetch("https://gradedproject.vercel.app//api/accounting");
-  const posts = await res.json();
-  console.log(posts);
+export async function getStaticProps() {
+  const posts = (await import("../../files/biology.json")).default;
+
   return {
     props: {
       posts,
