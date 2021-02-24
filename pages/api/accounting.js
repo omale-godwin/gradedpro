@@ -3,8 +3,9 @@ import AccountingModel from "../../components/models/accounting";
 
 export default async function (req, res) {
   var method = req.method;
-  const page = req.page;
-  const size = 10;
+  let page = req.query.page;
+  page = parseInt(page);
+  console.log(page);
 
   try {
     await dbConnect();
@@ -29,7 +30,9 @@ export default async function (req, res) {
 
   if (method === "GET") {
     try {
-      let accounts = await AccountingModel.find({}).limit(5);
+      let accounts = await AccountingModel.find({
+        id: { $gt: 10 * (page - 1) },
+      }).limit(20);
       accounts = await JSON.parse(JSON.stringify(accounts));
 
       res.status(200).send(accounts);
