@@ -10,9 +10,7 @@ const Planets = () => {
   const [page, setPage] = useState(1);
   const fetchPanets = async (page) => {
     console.log(page);
-    const result = await fetch(
-      `http://localhost:3000/api/accounting?page=${page}`
-    );
+    const result = await fetch(`/api/accounting?page=${page}`);
     return result.json();
   };
 
