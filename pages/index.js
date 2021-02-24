@@ -39,7 +39,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <a href="/applied">APPLIED SCIENCE</a>
+                  <a href="/applied/">APPLIED SCIENCE</a>
                 </h2>
                 <p>
                   These are Apllied Science project topics with available well
@@ -51,7 +51,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <a href="/architect">ARCHITECTURE PROJECT TOPICS</a>
+                  <a href="/architech/">ARCHITECTURE PROJECT TOPICS</a>
                 </h2>
                 <p>
                   These are Architecture Science department project topics with

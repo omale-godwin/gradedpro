@@ -70,7 +70,7 @@ const Planets = () => {
                                 <Link
                                   key={index}
                                   className="list-group-item "
-                                  href={`/account/${document.id}`}>
+                                  href={`/account/${document._id}`}>
                                   <a>
                                     {parser(
                                       document.title.replace(/\n/gi, "<br />")

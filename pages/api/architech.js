@@ -3,6 +3,9 @@ import Architect from "../../components/models/architect";
 
 export default async function (req, res) {
   var method = req.method;
+  let page = req.query.page;
+  page = parseInt(page);
+  console.log(page);
 
   try {
     await dbConnect();
@@ -26,7 +29,9 @@ export default async function (req, res) {
 
   if (method === "GET") {
     try {
-      let architect = await Architect.find({}).limit(10);
+      let architect = await Architect.find({
+        id: { $gt: 10 * (page - 1) },
+      }).limit(20);
       architect = JSON.parse(JSON.stringify(architect));
 
       res.status(200).send(architect);

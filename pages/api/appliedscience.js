@@ -3,7 +3,9 @@ import AppliedScienceModel from "../../components/models/appliedscience";
 
 export default async function (req, res) {
   var method = req.method;
-
+  let page = req.query.page;
+  page = parseInt(page);
+  console.log(page);
   try {
     await dbConnect();
   } catch (error) {
@@ -26,11 +28,12 @@ export default async function (req, res) {
 
   if (method === "GET") {
     try {
-      let architect = await AppliedScienceModel.find({}).limit(10);
-      architect = JSON.parse(JSON.stringify(architect));
+      let applied = await AppliedScienceModel.find({
+        id: { $gt: 10 * (page - 1) },
+      }).limit(20);
+      applied = await JSON.parse(JSON.stringify(applied));
 
-      res.status(200).send(architect);
-      res.end();
+      res.status(200).send(applied);
     } catch (error) {
       console.log(
         "error has occure whaen getting data from accounting document",
@@ -40,3 +43,5 @@ export default async function (req, res) {
     res.end();
   }
 }
+
+AppliedScienceModel;
