@@ -10,9 +10,7 @@ const Planets = () => {
   const [page, setPage] = useState(1);
   const fetchPanets = async (page) => {
     console.log(page);
-    const result = await fetch(
-      `https://gradedproject.vercel.app/api/accounting?page=${page}`
-    );
+    const result = await fetch(`/api/accounting?page=${page}`);
     return result.json();
   };
 
@@ -69,10 +67,7 @@ const Planets = () => {
                           <div key={index} className="col-sm-12 col-lg-12">
                             <div key={index} className="service-block-inner">
                               <h4 className="service-title">
-                                <Link
-                                  key={index}
-                                  className="list-group-item "
-                                  href={`/account/${document._id}`}>
+                                <Link key={index} className="list-group-item ">
                                   <a>
                                     {parser(
                                       document.title.replace(/\n/gi, "<br />")
