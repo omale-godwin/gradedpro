@@ -6,11 +6,11 @@ import { ReactQueryDevtools } from "react-query/devtools";
 
 const queryClient = new QueryClient();
 
-const Planets = () => {
+const CIVIL = () => {
   const [page, setPage] = useState(1);
   const fetchPanets = async (page) => {
     console.log(page);
-    const result = await fetch(`/api/accounting?page=${page}`);
+    const result = await fetch(`/api/CIVIL?page=${page}`);
     return result.json();
   };
 
@@ -70,7 +70,7 @@ const Planets = () => {
                                 <Link
                                   key={index}
                                   className="list-group-item "
-                                  href={`/account/${document._id}`}>
+                                  href={`/CIVIL/${document._id}`}>
                                   <a>
                                     {parser(
                                       document.title.replace(/\n/gi, "<br />")
@@ -89,7 +89,6 @@ const Planets = () => {
                           <div className="special-menu text-center">
                             <div className="button-group filter-button-group">
                               <button
-                                href="#"
                                 className="btn btn-danger"
                                 onClick={() =>
                                   setPage((old) => Math.max(old - 1, 1))
@@ -98,6 +97,7 @@ const Planets = () => {
                                 Previous Page
                               </button>{" "}
                               <button
+                                href="#top"
                                 className="btn btn-danger"
                                 onClick={() => {
                                   setPage((old) => old + 1);
@@ -105,15 +105,14 @@ const Planets = () => {
                                   console.log(page);
                                 }}
                                 // Disable the Next Page button until we know a next page is available
-                                disabled={isPreviousData}
-                                href="javascript:void();">
+                                disabled={isPreviousData}>
                                 Next Page
                               </button>
                             </div>
                             <br />
                             <br />
                             <button
-                              href=""
+                              href="#top"
                               disabled
                               className="btn btn-danger button-group filter-button-group">
                               Current Page: {page} 0f 81
@@ -148,7 +147,7 @@ const Planets = () => {
 export default function Wraped() {
   return (
     <QueryClientProvider client={queryClient}>
-      <Planets />
+      <CIVIL />
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   );

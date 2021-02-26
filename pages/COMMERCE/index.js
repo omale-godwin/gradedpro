@@ -10,7 +10,7 @@ const Planets = () => {
   const [page, setPage] = useState(1);
   const fetchPanets = async (page) => {
     console.log(page);
-    const result = await fetch(`/api/accounting?page=${page}`);
+    const result = await fetch(`/api/COMMERCE?page=${page}`);
     return result.json();
   };
 
@@ -32,7 +32,7 @@ const Planets = () => {
           <div className="row">
             <div className="col-lg-12">
               <h2 style={{ color: "white" }}>
-                <a>Accounting Project Materials</a>
+                <a>COMMERCE PROJECT TOPICS AND MATERIALS</a>
               </h2>
               <ul className="breadcrumb">
                 <li className="breadcrumb-item">
@@ -70,7 +70,7 @@ const Planets = () => {
                                 <Link
                                   key={index}
                                   className="list-group-item "
-                                  href={`/account/${document._id}`}>
+                                  href={`/COMMERCE/${document._id}`}>
                                   <a>
                                     {parser(
                                       document.title.replace(/\n/gi, "<br />")
@@ -89,7 +89,6 @@ const Planets = () => {
                           <div className="special-menu text-center">
                             <div className="button-group filter-button-group">
                               <button
-                                href="#"
                                 className="btn btn-danger"
                                 onClick={() =>
                                   setPage((old) => Math.max(old - 1, 1))
@@ -98,6 +97,7 @@ const Planets = () => {
                                 Previous Page
                               </button>{" "}
                               <button
+                                href="#top"
                                 className="btn btn-danger"
                                 onClick={() => {
                                   setPage((old) => old + 1);
@@ -105,15 +105,14 @@ const Planets = () => {
                                   console.log(page);
                                 }}
                                 // Disable the Next Page button until we know a next page is available
-                                disabled={isPreviousData}
-                                href="javascript:void();">
+                                disabled={isPreviousData}>
                                 Next Page
                               </button>
                             </div>
                             <br />
                             <br />
                             <button
-                              href=""
+                              href="#top"
                               disabled
                               className="btn btn-danger button-group filter-button-group">
                               Current Page: {page} 0f 81
