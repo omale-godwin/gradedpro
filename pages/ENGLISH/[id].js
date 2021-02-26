@@ -52,7 +52,7 @@ const ENGLISHS = ({ post }) => {
   );
 };
 
-export default ENGLISH;
+export default ENGLISHS;
 
 export async function getServerSideProps(context) {
   await dbConnect();
