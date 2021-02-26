@@ -6,7 +6,7 @@ import { ReactQueryDevtools } from "react-query/devtools";
 
 const queryClient = new QueryClient();
 
-const BUSINESSL = () => {
+const POLITICAL = () => {
   const [page, setPage] = useState(1);
   const fetchPanets = async (page) => {
     console.log(page);
@@ -147,7 +147,7 @@ const BUSINESSL = () => {
 export default function Wraped() {
   return (
     <QueryClientProvider client={queryClient}>
-      <BUSINESSL />
+      <POLITICAL />
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   );

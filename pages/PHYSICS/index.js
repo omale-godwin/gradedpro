@@ -6,11 +6,11 @@ import { ReactQueryDevtools } from "react-query/devtools";
 
 const queryClient = new QueryClient();
 
-const BUSINESSL = () => {
+const PHYSICSL = () => {
   const [page, setPage] = useState(1);
   const fetchPanets = async (page) => {
     console.log(page);
-    const result = await fetch(`/api/BUSINESS?page=${page}`);
+    const result = await fetch(`/api/PHYSICS?page=${page}`);
     return result.json();
   };
 
@@ -32,7 +32,7 @@ const BUSINESSL = () => {
           <div className="row">
             <div className="col-lg-12">
               <h2 style={{ color: "white" }}>
-                <a>BUSINESS ADMINISTRATIVE PROJECT TOPICS AND MATERIALS</a>
+                <a>PHYSICS PROJECT TOPICS AND MATERIALS</a>
               </h2>
               <ul className="breadcrumb">
                 <li className="breadcrumb-item">
@@ -70,7 +70,7 @@ const BUSINESSL = () => {
                                 <Link
                                   key={index}
                                   className="list-group-item "
-                                  href={`/BUSINESS/${document._id}`}>
+                                  href={`/PHYSICS/${document._id}`}>
                                   <a>
                                     {parser(
                                       document.title.replace(/\n/gi, "<br />")
@@ -147,7 +147,7 @@ const BUSINESSL = () => {
 export default function Wraped() {
   return (
     <QueryClientProvider client={queryClient}>
-      <BUSINESSL />
+      <PHYSICSL />
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   );
