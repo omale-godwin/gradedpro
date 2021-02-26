@@ -6,11 +6,11 @@ import { ReactQueryDevtools } from "react-query/devtools";
 
 const queryClient = new QueryClient();
 
-const Cooperative = () => {
+const ESTATEL = () => {
   const [page, setPage] = useState(1);
   const fetchPanets = async (page) => {
     console.log(page);
-    const result = await fetch(`/api/crimnology?page=${page}`);
+    const result = await fetch(`/api/ESTATE?page=${page}`);
     return result.json();
   };
 
@@ -32,7 +32,7 @@ const Cooperative = () => {
           <div className="row">
             <div className="col-lg-12">
               <h2 style={{ color: "white" }}>
-                <a>CRIMNOLOGY PROJECT TOPICS AND MATERIALS</a>
+                <a>ESTATE MANAGEMENT PROJECT TOPICS AND MATERIALS</a>
               </h2>
               <ul className="breadcrumb">
                 <li className="breadcrumb-item">
@@ -70,7 +70,7 @@ const Cooperative = () => {
                                 <Link
                                   key={index}
                                   className="list-group-item "
-                                  href={`/crimnology/${document._id}`}>
+                                  href={`/ESTATE/${document._id}`}>
                                   <a>
                                     {parser(
                                       document.title.replace(/\n/gi, "<br />")
@@ -147,7 +147,7 @@ const Cooperative = () => {
 export default function Wraped() {
   return (
     <QueryClientProvider client={queryClient}>
-      <Cooperative />
+      <ESTATEL />
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   );
