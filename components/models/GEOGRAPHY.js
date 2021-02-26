@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const Computermodel = new mongoose.Schema({
+const GEOGRAPHYModel = new mongoose.Schema({
   title: {
     type: String,
   },
@@ -13,5 +13,5 @@ const Computermodel = new mongoose.Schema({
   },
 });
 
-export default mongoose.models.architects ||
-  mongoose.model("architects", Computermodel);
+export default mongoose.models.GEOGRAPHYS ||
+  mongoose.model("GEOGRAPHYS", GEOGRAPHYModel);

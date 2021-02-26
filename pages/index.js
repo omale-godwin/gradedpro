@@ -64,9 +64,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/Agriculture/Agriculture">
+                  <Link style={{ color: "#c73176" }} href="/AGRICULTURAL/">
                     <a>AGRICULTURAL SCIENCE PROJECT</a>
                   </Link>
                 </h2>
@@ -81,9 +79,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/BankingandFinance/BankingandFinance">
+                  <Link style={{ color: "#c73176" }} href="/BANKING/">
                     <a>BANKING AND FINANCE</a>
                   </Link>
                 </h2>
@@ -98,9 +94,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/Biochemistry/Biochemistry">
+                  <Link style={{ color: "#c73176" }} href="/BIOLOGY/">
                     <a>BIOLOGY PROJECT TOPICS</a>
                   </Link>
                 </h2>
@@ -118,24 +112,22 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link style={{ color: "#c73176" }} href="/Building/Building">
+                  <Link style={{ color: "#c73176" }} href="/BUILDING/">
                     <a>BUILDING TECHNOLOGY</a>
                   </Link>
                 </h2>
                 <p>
-                  These are Chemical Engineering Science department project
-                  topics with available well written chapters 1 to chapter 5,
-                  Please click on a project topic to view its details and order
-                  for the complete material
+                  These are Building Technology department project topics with
+                  available well written chapters 1 to chapter 5, Please click
+                  on a project topic to view its details and order for the
+                  complete material
                 </p>
               </div>
             </div>
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/BusinessAdministrationandManagement/BusinessAdministrationandManagement">
+                  <Link style={{ color: "#c73176" }} href="/BUSINESS/">
                     <a>BUSINESS ADMINISTRATION PROJECT MATERIAL</a>
                   </Link>
                 </h2>
@@ -150,9 +142,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/Biochemistry/Biochemistry">
+                  <Link style={{ color: "#c73176" }} href="/BIOCHEMISTRY/">
                     <a>BIO-CHEMISTRY PROJECT MATERIALS</a>
                   </Link>
                 </h2>
@@ -167,9 +157,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/CHEMISTRY/CHEMISTRY">
+                  <Link style={{ color: "#c73176" }} href="/CHEMISTRY/">
                     <a>CHEMISTRY</a>
                   </Link>
                 </h2>
@@ -184,9 +172,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/chemical_engineering/ChemicalEngineering">
+                  <Link style={{ color: "#c73176" }} href="/CHEMICAL/">
                     <a>CHEMICAL ENGINEERING</a>
                   </Link>
                 </h2>
@@ -202,9 +188,7 @@ export default function Home() {
               <div className="service-block-inner">
                 <div className="service-content">
                   <h2 className="service-title">
-                    <Link
-                      style={{ color: "#c73176" }}
-                      href="/CivilEngineering/CivilEngineering">
+                    <Link style={{ color: "#c73176" }} href="/CIVIL/">
                       <a>CIVIL ENGINEERING PROJECT TOPICS</a>
                     </Link>
                   </h2>
@@ -222,7 +206,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <a href="/computer/">COMPUTER SCIENCE PROJECT TOPICS</a>
+                  <a href="/COMPUTER/">COMPUTER SCIENCE PROJECT TOPICS</a>
                 </h2>
                 <p>
                   These are Computer Science department project topics with
@@ -235,9 +219,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/COMPUTERENGINEERING/COMPUTERENGINEERING">
+                  <Link style={{ color: "#c73176" }} href="/COMPUTERENG/">
                     <a>COMPUTER ENGINEERING</a>
                   </Link>
                 </h2>
@@ -252,7 +234,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link style={{ color: "#c73176" }} href="/COMMERCE/COMMERCE">
+                  <Link style={{ color: "#c73176" }} href="/COMMERCE/">
                     <a>COMMERCE</a>
                   </Link>
                 </h2>
@@ -267,9 +249,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/CooperativeEconomic/CooperativeEconomic">
+                  <Link style={{ color: "#c73176" }} href="/Cooperative/">
                     <a>CO-OPERATIVE ECONOMIC PROJECT TOPIC</a>
                   </Link>
                 </h2>
@@ -285,9 +265,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/CRIMINOLOGY/CRIMINOLOGY">
+                  <Link style={{ color: "#c73176" }} href="/crimnology/">
                     <a>
                       CRIMINOLOGY AND SECURITY STUDIES Project Topics and
                       Materials
@@ -303,9 +281,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/Economics/Economics">
+                  <Link style={{ color: "#c73176" }} href="/ECONOMICS/">
                     <a>ECONOMICS PROJECT TOPIC & MATERIALS</a>
                   </Link>
                 </h2>
@@ -323,9 +299,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/Education/Education">
+                  <Link style={{ color: "#c73176" }} href="/EDUCATION/">
                     <a>EDUCATION PROJECT TOPICS AND MATERIALS</a>
                   </Link>
                 </h2>
@@ -340,9 +314,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/ELECTRICAL/ELECTRICAL">
+                  <Link style={{ color: "#c73176" }} href="/ELECTRICAL/">
                     <a>ELECTRICAL & ELECTRONICS ENGINEERING</a>
                   </Link>
                 </h2>
@@ -357,7 +329,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link style={{ color: "#c73176" }} href="/ENGLISH/ENGLISH">
+                  <Link style={{ color: "#c73176" }} href="/ENGLISH/">
                     <a>ENGLISH LANGUAGE & LITERATURE</a>
                   </Link>
                 </h2>
@@ -372,9 +344,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/FineandAppliedArts/FineandAppliedArts">
+                  <Link style={{ color: "#c73176" }} href="/FINEART/">
                     <a>FINE & APPLIED ART</a>
                   </Link>
                 </h2>
@@ -389,9 +359,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/ENTREPRENEURSHIP/ENTREPRENEURSHIP">
+                  <Link style={{ color: "#c73176" }} href="/ENTREPRENEURSHIP/">
                     <a>ENTREPRENEURSHIP PROJECT MATERIALS</a>
                   </Link>
                 </h2>
@@ -406,7 +374,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link style={{ color: "#c73176" }} href="/accountings/">
+                  <Link style={{ color: "#c73176" }} href="/ENVIRONMENTAL/">
                     <a>ENVIRONMENTAL SCIENCE</a>
                   </Link>
                 </h2>
@@ -424,7 +392,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link style={{ color: "#c73176" }} href="/accountings/">
+                  <Link style={{ color: "#c73176" }} href="/">
                     <a>ENVIRONMENTAL SCIENCE PROJECT MATERIALS</a>
                   </Link>
                 </h2>
@@ -440,7 +408,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link style={{ color: "#c73176" }} href="/accountings/">
+                  <Link style={{ color: "#c73176" }} href="/ESTATE/">
                     <a>ESTATE MANAGEMENT PROJECT MATERIALS</a>
                   </Link>
                 </h2>
@@ -456,9 +424,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/FisheryandAquacultur/FisheryandAquacultur">
+                  <Link style={{ color: "#c73176" }} href="/FISHERIES/">
                     <a>FISHERIES AND AQUACULTURE PROJECTS</a>
                   </Link>
                 </h2>
@@ -474,9 +440,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/FoodTechnology/FoodTechnology">
+                  <Link style={{ color: "#c73176" }} href="/FOOD/">
                     <a>FOOD TECHNOLOGY</a>
                   </Link>
                 </h2>
@@ -492,9 +456,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/Geography/Geography">
+                  <Link style={{ color: "#c73176" }} href="/GEOGRAPHY/">
                     <a>GEOGRAPHY PROJECTS MATERIALS</a>
                   </Link>
                 </h2>
@@ -510,7 +472,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link style={{ color: "#c73176" }} href="/GEOLOGY/GEOLOGY">
+                  <Link style={{ color: "#c73176" }} href="/GEOLOGY/">
                     <a>GEOLOGY</a>
                   </Link>
                 </h2>
@@ -527,7 +489,7 @@ export default function Home() {
               <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
                   <h2 className="service-title">
-                    <Link style={{ color: "#c73176" }} href="/HISTORY/HISTORY">
+                    <Link style={{ color: "#c73176" }} href="/HISTORY/">
                       <a>HISTORY PROJECT MATERIALS</a>
                     </Link>
                   </h2>
@@ -543,9 +505,7 @@ export default function Home() {
               <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
                   <h2 className="service-title">
-                    <Link
-                      style={{ color: "#c73176" }}
-                      href="/HUMANRESOURCEMANAGEMENT/HUMANRESOURCEMANAGEMENT">
+                    <Link style={{ color: "#c73176" }} href="/HUMAN/">
                       <a>HUMAN RESOURCE MANAGEMENT</a>
                     </Link>
                   </h2>
@@ -560,9 +520,7 @@ export default function Home() {
               <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
                   <h2 className="service-title">
-                    <Link
-                      style={{ color: "#c73176" }}
-                      href="/INSURANCE/INSURANCE">
+                    <Link style={{ color: "#c73176" }} href="/INSURANCE/">
                       <a>INSURANCE PROJECT MATERIALS</a>
                     </Link>
                   </h2>
@@ -580,7 +538,7 @@ export default function Home() {
                   <h2 className="service-title">
                     <Link
                       style={{ color: "#c73176" }}
-                      href="/IndustrialChemistry/IndustrialChemistry">
+                      href="/INDUSTRIALCHEMISTRY/">
                       <a>INDUSTRIAL CHEMISTRY PROJECT MATERIALS</a>
                     </Link>
                   </h2>
@@ -597,7 +555,7 @@ export default function Home() {
                   <h2 className="service-title">
                     <Link
                       style={{ color: "#c73176" }}
-                      href="/IndustrialRelationsandPersonneManagement/IndustrialRelationsandPersonneManagement">
+                      href="/INDUSTRIALRELATIONS/">
                       <a>INDUSTRIAL RELATIONS & PERSON MANAGEMENT</a>
                     </Link>
                   </h2>
@@ -612,7 +570,7 @@ export default function Home() {
               <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
                   <h2 className="service-title">
-                    <Link style={{ color: "#c73176" }} href="/LAW/LAW">
+                    <Link style={{ color: "#c73176" }} href="/LAW/">
                       <a>LAW PROJECT MATERIALS</a>
                     </Link>
                   </h2>
@@ -630,9 +588,7 @@ export default function Home() {
               <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
                   <h2 className="service-title">
-                    <Link
-                      style={{ color: "#c73176" }}
-                      href="/LIBRARYSCIENCE/LIBRARYSCIENCE">
+                    <Link style={{ color: "#c73176" }} href="/LIBRARYSCIENCE/">
                       <a>LIBRARY SCIENCE PROJECTS MATERIALS</a>
                     </Link>
                   </h2>
@@ -649,8 +605,8 @@ export default function Home() {
                   <h2 className="service-title">
                     <Link
                       style={{ color: "#c73176" }}
-                      href="/INTERNATIONALRELATIONS/INTERNATIONALRELATIONS">
-                      <a>INTERNATIONAL RELATIONS</a>
+                      href="/INTERNATIONALRELATIONS/">
+                      <a>INTERNATIONAL RELATIONS AND DIPLOMATIC STUDIES</a>
                     </Link>
                   </h2>
                   <p>
@@ -665,9 +621,7 @@ export default function Home() {
               <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
                   <h2 className="service-title">
-                    <Link
-                      style={{ color: "#c73176" }}
-                      href="/LINGUISTICSCOMMUNICATION/LINGUISTICSCOMMUNICATION">
+                    <Link style={{ color: "#c73176" }} href="/LINGUISTICS/">
                       <a>LINGUISTICS & COMMUNICATION</a>
                     </Link>
                   </h2>
@@ -682,9 +636,7 @@ export default function Home() {
               <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
                   <h2 className="service-title">
-                    <Link
-                      style={{ color: "#c73176" }}
-                      href="/MARKETING/MARKETING">
+                    <Link style={{ color: "#c73176" }} href="/MARKETING/">
                       <a>MARKETING PROJECT MATERIALS</a>
                     </Link>
                   </h2>
@@ -700,9 +652,7 @@ export default function Home() {
               <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
                   <h2 className="service-title">
-                    <Link
-                      style={{ color: "#c73176" }}
-                      href="/MedicalandHealthScience/MedicalandHealthScience">
+                    <Link style={{ color: "#c73176" }} href="/MEDICAL/">
                       <a>MEDICAL & HEALTH SCIENCE</a>
                     </Link>
                   </h2>
@@ -717,9 +667,7 @@ export default function Home() {
               <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
                   <h2 className="service-title">
-                    <Link
-                      style={{ color: "#c73176" }}
-                      href="/mass_comm/MassCommunication">
+                    <Link style={{ color: "#c73176" }} href="/MASS/">
                       <a>MASS COMMUNICATION</a>
                     </Link>
                   </h2>
@@ -738,10 +686,8 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/MATHEMATICS/MATHEMATICS">
-                    <a>MATHEMATICSPROJECT MATERIALS</a>
+                  <Link style={{ color: "#c73176" }} href="/MATHEMATICS/">
+                    <a>MATHEMATICS PROJECT MATERIALS</a>
                   </Link>
                 </h2>
                 <p>
@@ -756,9 +702,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/MECHANICALENGINEERING/MECHANICALENGINEERING">
+                  <Link style={{ color: "#c73176" }} href="/MECHANICAL/">
                     <a>MECHANICAL ENGINEERING PROJECT TOPICS</a>
                   </Link>
                 </h2>
@@ -773,9 +717,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/MedicalandHealthScience/MedicalandHealthScience">
+                  <Link style={{ color: "#c73176" }} href="/MEDICAL/">
                     <a>MEDICAL & HEALTH SCIENCE PROJECT</a>
                   </Link>
                 </h2>
@@ -791,9 +733,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/LIBRARYSCIENCE/LIBRARYSCIENCE">
+                  <Link style={{ color: "#c73176" }} href="/LIBRARYSCIENCE/">
                     <a>LIBRARY SCIENCE PROJECT TOPICS</a>
                   </Link>
                 </h2>
@@ -809,9 +749,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/MICROBIOLOGY/MICROBIOLOGY">
+                  <Link style={{ color: "#c73176" }} href="/MICROBIOLOGY/">
                     <a>MICROBIOLOGY PROJECT MATERIALS</a>
                   </Link>
                 </h2>
@@ -827,7 +765,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link style={{ color: "#c73176" }} href="/NURSING/NURSING">
+                  <Link style={{ color: "#c73176" }} href="/NURSING/">
                     <a>NURSING PROJECT MATERIALS</a>
                   </Link>
                 </h2>
@@ -846,7 +784,7 @@ export default function Home() {
                   <h2 className="service-title">
                     <Link
                       style={{ color: "#c73176" }}
-                      href="/OFFICETECHNOLOGYMANAGEMENT/OFFICETECHNOLOGYMANAGEMENT">
+                      href="/OFFICETECHNOLOGYMANAGEMENT/">
                       <a>OFFICE TECHNOLOGY MANAGEMENT TOPICS</a>
                     </Link>
                   </h2>
@@ -862,9 +800,7 @@ export default function Home() {
               <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
                   <h2 className="service-title">
-                    <Link
-                      style={{ color: "#c73176" }}
-                      href="/PHARMACEUTICALSCIENCES/PHARMACEUTICALSCIENCES">
+                    <Link style={{ color: "#c73176" }} href="/PHARMACEUTICAL/">
                       <a>PHARMACEUTICAL SCIENCES TOPICS</a>
                     </Link>
                   </h2>
@@ -879,9 +815,7 @@ export default function Home() {
               <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
                   <h2 className="service-title">
-                    <Link
-                      style={{ color: "#c73176" }}
-                      href="/PHILOSOPHY/PHILOSOPHY">
+                    <Link style={{ color: "#c73176" }} href="/PHILOSOPHY/">
                       <a>PHILOSOPHY PROJECT TOPICS</a>
                     </Link>
                   </h2>
@@ -914,7 +848,7 @@ export default function Home() {
                   <h2 className="service-title">
                     <Link
                       style={{ color: "#c73176" }}
-                      href="/POLITICALSCIENCE/POLITICALSCIENCE">
+                      href="/POLITICALSCIENCE/">
                       <a>POLITICAL SCIENCE PROJECT TOPICS</a>
                     </Link>
                   </h2>
@@ -930,9 +864,7 @@ export default function Home() {
               <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
                   <h2 className="service-title">
-                    <Link
-                      style={{ color: "#c73176" }}
-                      href="/PSYCHOLOGY/PSYCHOLOGY">
+                    <Link style={{ color: "#c73176" }} href="/PSYCHOLOGY/">
                       <a>PSYCHOLOGY PROJECT TOPICS</a>
                     </Link>
                   </h2>
@@ -952,7 +884,7 @@ export default function Home() {
                   <h2 className="service-title">
                     <Link
                       style={{ color: "#c73176" }}
-                      href="/PUBLICADMINISTRATION/PUBLICADMINISTRATION">
+                      href="/PUBLICADMINISTRATION/">
                       <a>PUBLIC ADMINISTRATION PROJECT TOPICS</a>
                     </Link>
                   </h2>
@@ -968,9 +900,7 @@ export default function Home() {
               <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
                   <h2 className="service-title">
-                    <Link
-                      style={{ color: "#c73176" }}
-                      href="/PUBLICHEALTH/PUBLICHEALTH">
+                    <Link style={{ color: "#c73176" }} href="/PUBLICHEALTH/">
                       <a>PUBLIC HEALTH PROJECT TOPICS</a>
                     </Link>
                   </h2>
@@ -987,7 +917,7 @@ export default function Home() {
                   <h2 className="service-title">
                     <Link
                       style={{ color: "#c73176" }}
-                      href="/PROJECTMANAGEMENT/PROJECTMANAGEMENT">
+                      href="/PROJECTMANAGEMENT/">
                       <a>PROJECT MANAGEMENT </a>
                     </Link>
                   </h2>
@@ -1002,9 +932,7 @@ export default function Home() {
               <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
                   <h2 className="service-title">
-                    <Link
-                      style={{ color: "#c73176" }}
-                      href="/PURCHASINGSUPPLYCHAINMANAGEMENT/PURCHASINGSUPPLYCHAINMANAGEMENT">
+                    <Link style={{ color: "#c73176" }} href="/PURCHASING/">
                       <a>PURCHASING & SUPPLY CHAIN MANAGEMENT </a>
                     </Link>
                   </h2>
@@ -1037,9 +965,7 @@ export default function Home() {
               <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
                   <h2 className="service-title">
-                    <Link
-                      style={{ color: "#c73176" }}
-                      href="/SecretarialAdministration/SecretarialAdministration">
+                    <Link style={{ color: "#c73176" }} href="/SECREATARIAL/">
                       <a>SECREATARIAL ADMINISTRATION TOPICS</a>
                     </Link>
                   </h2>
@@ -1058,9 +984,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/SCIENCELABORATORYTECHNOLOGY/SCIENCELABORATORYTECHNOLOGY">
+                  <Link style={{ color: "#c73176" }} href="/SCIENCE/">
                     <a>SCIENCE LABORATORY TECHNOLOGY</a>
                   </Link>
                 </h2>
@@ -1076,9 +1000,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/SOCIOLOGY/SOCIOLOGY">
+                  <Link style={{ color: "#c73176" }} href="/SOCIOLOGY/">
                     <a>SOCIOLOGY PROJECT TOPICS</a>
                   </Link>
                 </h2>
@@ -1093,9 +1015,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/STATISTICS/STATISTICS">
+                  <Link style={{ color: "#c73176" }} href="/STATISTICS/">
                     <a>STATISTICS PROJECT TOPICS</a>
                   </Link>
                 </h2>
@@ -1111,9 +1031,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/THEATREARTS/THEATREARTS">
+                  <Link style={{ color: "#c73176" }} href="/THEATREARTS/">
                     <a>THEATRE ARTS PROJECT TOPICS</a>
                   </Link>
                 </h2>
@@ -1131,7 +1049,7 @@ export default function Home() {
                 <h2 className="service-title">
                   <Link
                     style={{ color: "#c73176" }}
-                    href="/THEOLOGYBIBLICALSTUDIES/THEOLOGYBIBLICALSTUDIES">
+                    href="/THEOLOGYBIBLICALSTUDIES/">
                     <a>THEOLOGY & BIBLICAL STUDIES TOPICS</a>
                   </Link>
                 </h2>
@@ -1147,9 +1065,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/TransportManagement/TransportManagement">
+                  <Link style={{ color: "#c73176" }} href="/TRANSPORT/">
                     <a>TRANSPORT MANAGEMENT</a>
                   </Link>
                 </h2>
@@ -1167,7 +1083,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link style={{ color: "#c73176" }} href="/accountings/">
+                  <Link style={{ color: "#c73176" }} href="/URBAN/">
                     <a>URBAN & REGIONAL PLANNING TOPICS</a>
                   </Link>
                 </h2>
@@ -1183,9 +1099,7 @@ export default function Home() {
           <div className="col-sm-6 col-lg-4">
             <div className="service-block-inner">
               <h2 className="service-title">
-                <Link
-                  style={{ color: "#c73176" }}
-                  href="/VETERINARYMEDICINE/VETERINARYMEDICINE">
+                <Link style={{ color: "#c73176" }} href="/VETERINARYMEDICINE/">
                   <a>VETERINARY MEDICINE PROJECT TOPICS</a>
                 </Link>
               </h2>
