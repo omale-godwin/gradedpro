@@ -70,7 +70,7 @@ const INDUSTRIALRELATIONSL = () => {
                                 <Link
                                   key={index}
                                   className="list-group-item "
-                                  href={`/BUSINESS/${document._id}`}>
+                                  href={`/INDUSTRIALRELATIONS/${document._id}`}>
                                   <a>
                                     {parser(
                                       document.title.replace(/\n/gi, "<br />")

@@ -6,11 +6,11 @@ import { ReactQueryDevtools } from "react-query/devtools";
 
 const queryClient = new QueryClient();
 
-const INTERNATIONALRELATIONS = () => {
+const MECHANICAL = () => {
   const [page, setPage] = useState(1);
   const fetchPanets = async (page) => {
     console.log(page);
-    const result = await fetch(`/api/INTERNATIONALRELATIONS?page=${page}`);
+    const result = await fetch(`/api/MECHANICAL?page=${page}`);
     return result.json();
   };
 
@@ -32,10 +32,7 @@ const INTERNATIONALRELATIONS = () => {
           <div className="row">
             <div className="col-lg-12">
               <h2 style={{ color: "white" }}>
-                <a>
-                  INTERNATIONAL RELATIONS AND DIPLOMACY STUDIES PROJECT TOPICS
-                  AND MATERIALS
-                </a>
+                <a>MECHANICAL ENGINEERING PROJECT TOPICS AND MATERIALS</a>
               </h2>
               <ul className="breadcrumb">
                 <li className="breadcrumb-item">
@@ -73,7 +70,7 @@ const INTERNATIONALRELATIONS = () => {
                                 <Link
                                   key={index}
                                   className="list-group-item "
-                                  href={`/INTERNATIONALRELATIONS/${document._id}`}>
+                                  href={`/MECHANICAL/${document._id}`}>
                                   <a>
                                     {parser(
                                       document.title.replace(/\n/gi, "<br />")
@@ -150,7 +147,7 @@ const INTERNATIONALRELATIONS = () => {
 export default function Wraped() {
   return (
     <QueryClientProvider client={queryClient}>
-      <INTERNATIONALRELATIONS />
+      <MECHANICAL />
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   );
