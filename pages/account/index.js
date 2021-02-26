@@ -67,7 +67,10 @@ const Planets = () => {
                           <div key={index} className="col-sm-12 col-lg-12">
                             <div key={index} className="service-block-inner">
                               <h4 className="service-title">
-                                <Link key={index} className="list-group-item ">
+                                <Link
+                                  key={index}
+                                  className="list-group-item "
+                                  href={`/account/${document._id}`}>
                                   <a>
                                     {parser(
                                       document.title.replace(/\n/gi, "<br />")
