@@ -54,7 +54,7 @@ const AccountS = ({ post }) => {
 
 export default AccountS;
 
-export async function getServerSideProps(context) {
+export async function getInitialProps(context) {
   await dbConnect();
 
   let post = await AccountingModel.find({ _id: context.params.id });
