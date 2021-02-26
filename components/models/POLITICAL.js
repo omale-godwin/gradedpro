@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
 
-const BUSINESSModel = new mongoose.Schema({
+const POLITICALModel = new mongoose.Schema({
   title: {
     type: String,
   },
@@ -13,5 +13,5 @@ const BUSINESSModel = new mongoose.Schema({
   },
 });
 
-export default mongoose.models.BUSINESS ||
-  mongoose.model("BUSINESS", BUSINESSModel);
+export default mongoose.models.POLITICALS ||
+  mongoose.model("POLITICALS", POLITICALModel);

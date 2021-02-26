@@ -10,7 +10,7 @@ const BUSINESSL = () => {
   const [page, setPage] = useState(1);
   const fetchPanets = async (page) => {
     console.log(page);
-    const result = await fetch(`/api/BUSINESS?page=${page}`);
+    const result = await fetch(`/api/POLITICAL?page=${page}`);
     return result.json();
   };
 
@@ -32,7 +32,7 @@ const BUSINESSL = () => {
           <div className="row">
             <div className="col-lg-12">
               <h2 style={{ color: "white" }}>
-                <a>BUSINESS ADMINISTRATIVE PROJECT TOPICS AND MATERIALS</a>
+                <a>POLITICAL SCIENCE PROJECT TOPICS AND MATERIALS</a>
               </h2>
               <ul className="breadcrumb">
                 <li className="breadcrumb-item">
@@ -70,7 +70,7 @@ const BUSINESSL = () => {
                                 <Link
                                   key={index}
                                   className="list-group-item "
-                                  href={`/BUSINESS/${document._id}`}>
+                                  href={`/POLITICAL/${document._id}`}>
                                   <a>
                                     {parser(
                                       document.title.replace(/\n/gi, "<br />")

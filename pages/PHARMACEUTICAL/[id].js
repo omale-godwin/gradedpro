@@ -1,9 +1,9 @@
 import React from "react";
 import dbConnect from "../../components/connection/database";
-import BUSINESSModel from "../../components/models/BUSINESS";
+import PHARMACEUTICALModel from "../../components/models/PHARMACEUTICAL";
 import parser from "html-react-parser";
 
-const BUSINESSS = ({ post }) => {
+const PHARMACEUTICALS = ({ post }) => {
   return (
     <div>
       <div className="all-title-box">
@@ -52,12 +52,12 @@ const BUSINESSS = ({ post }) => {
   );
 };
 
-export default BUSINESSS;
+export default PHARMACEUTICALS;
 
 export async function getServerSideProps(context) {
   await dbConnect();
 
-  let post = await BUSINESSModel.find({ _id: context.params.id });
+  let post = await PHARMACEUTICALModel.find({ _id: context.params.id });
   post = JSON.parse(JSON.stringify(post));
   console.log(post);
 

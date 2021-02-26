@@ -1,5 +1,5 @@
 import dbConnect from "../../components/connection/database";
-import BUSINESSModel from "../../components/models/BUSINESS";
+import PHILOSOPHYModel from "../../components/models/PHILOSOPHY";
 
 export default async function (req, res) {
   var method = req.method;
@@ -13,7 +13,7 @@ export default async function (req, res) {
   }
   if (method === "POST") {
     try {
-      let business = await BUSINESSModel.create(req.body);
+      let business = await PHILOSOPHYModel.create(req.body);
       res.status(200).json({
         msg: "successfully deposite to the database",
         payload: business,
@@ -28,7 +28,7 @@ export default async function (req, res) {
 
   if (method === "GET") {
     try {
-      let bussines = await BUSINESSModel.find({
+      let bussines = await PHILOSOPHYModel.find({
         id: { $gt: 10 * (page - 1) },
       }).limit(20);
       bussines = await JSON.parse(JSON.stringify(bussines));

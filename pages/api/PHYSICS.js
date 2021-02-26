@@ -1,5 +1,5 @@
 import dbConnect from "../../components/connection/database";
-import CooperativeModel from "../../components/models/Cooperative";
+import PHYSICSModel from "../../components/models/PHYSICS";
 
 export default async function (req, res) {
   var method = req.method;
@@ -13,10 +13,10 @@ export default async function (req, res) {
   }
   if (method === "POST") {
     try {
-      let architect = await CooperativeModel.create(req.body);
+      let business = await PHYSICSModel.create(req.body);
       res.status(200).json({
         msg: "successfully deposite to the database",
-        payload: architect,
+        payload: business,
       });
     } catch (error) {
       console.log(
@@ -28,12 +28,12 @@ export default async function (req, res) {
 
   if (method === "GET") {
     try {
-      let applied = await CooperativeModel.find({
+      let bussines = await PHYSICSModel.find({
         id: { $gt: 10 * (page - 1) },
       }).limit(20);
-      applied = await JSON.parse(JSON.stringify(applied));
+      bussines = await JSON.parse(JSON.stringify(bussines));
 
-      res.status(200).send(applied);
+      res.status(200).send(bussines);
     } catch (error) {
       console.log(
         "error has occure whaen getting data from accounting document",
