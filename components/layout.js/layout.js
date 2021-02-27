@@ -10,7 +10,7 @@ export default function Layout({ children }) {
     <div>
       <Topbar />
       <Header />
-      <Search />
+
       {children}
       <Blog />
       <Footer />

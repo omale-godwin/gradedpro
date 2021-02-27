@@ -1381,9 +1381,7 @@
  .all-title-box .breadcrumb-item + .breadcrumb-item::before{
      color: #010101;
 }
- .about-box-main{
-     padding: 70px 0px;
-}
+
  .noo-sh-title{
      font-size: 28px;
      text-transform: uppercase;
@@ -2167,9 +2165,7 @@
  .wishlist-box-main{
      padding: 70px 0px;
 }
- .services-box-main{
-     padding: 70px 0px;
-}
+
  .contact-box-main{
      padding: 70px 0px;
 }

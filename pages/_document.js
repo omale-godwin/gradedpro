@@ -13,9 +13,9 @@ class MyDocument extends Document {
           <meta charSet="utf-8" />
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
 
-          <meta name="keywords" content="" />
-          <meta name="description" content="" />
-          <meta name="author" content="" />
+          <meta name="gradrdproject" content="" />
+          <meta name="graded project final year project material " content="" />
+          <meta name="gradedproject" content="" />
 
           <link
             rel="shortcut icon"

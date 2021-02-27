@@ -99,7 +99,9 @@ const SLT = () => {
                                 Previous Page
                               </button>{" "}
                               <button
-                                href="#top"
+                                href="#"
+                                id="back-to-top"
+                                title="Back to top"
                                 className="btn btn-danger"
                                 onClick={() => {
                                   setPage((old) => old + 1);
