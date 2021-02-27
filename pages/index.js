@@ -878,9 +878,7 @@ export default function Home() {
               <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
                   <h2 className="service-title">
-                    <Link
-                      style={{ color: "#c73176" }}
-                      href="/PUBLICADMINISTRATION/">
+                    <Link style={{ color: "#c73176" }} href="/PUBLIC/">
                       <a>PUBLIC ADMINISTRATION PROJECT TOPICS</a>
                     </Link>
                   </h2>
@@ -911,9 +909,7 @@ export default function Home() {
               <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
                   <h2 className="service-title">
-                    <Link
-                      style={{ color: "#c73176" }}
-                      href="/PROJECTMANAGEMENT/">
+                    <Link style={{ color: "#c73176" }} href="/PROJECT/">
                       <a>PROJECT MANAGEMENT </a>
                     </Link>
                   </h2>
@@ -944,9 +940,7 @@ export default function Home() {
               <div className="col-sm-6 col-lg-4">
                 <div className="service-block-inner">
                   <h2 className="service-title">
-                    <Link
-                      style={{ color: "#c73176" }}
-                      href="/QUANTITYSURVEY/QUANTITYSURVEY">
+                    <Link style={{ color: "#c73176" }} href="/QUANTITYSURVEY/">
                       <a>QUANTITY SURVEY PROJECT TOPICS</a>
                     </Link>
                   </h2>
@@ -980,7 +974,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link style={{ color: "#c73176" }} href="/SCIENCE/">
+                  <Link style={{ color: "#c73176" }} href="/SLT/">
                     <a>SCIENCE LABORATORY TECHNOLOGY</a>
                   </Link>
                 </h2>
