@@ -1021,7 +1021,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link style={{ color: "#c73176" }} href="/THEATREARTS/">
+                  <Link style={{ color: "#c73176" }} href="/THEATRE/">
                     <a>THEATRE ARTS PROJECT TOPICS</a>
                   </Link>
                 </h2>
@@ -1037,9 +1037,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link
-                    style={{ color: "#c73176" }}
-                    href="/THEOLOGYBIBLICALSTUDIES/">
+                  <Link style={{ color: "#c73176" }} href="/THEOLOGY/">
                     <a>THEOLOGY & BIBLICAL STUDIES TOPICS</a>
                   </Link>
                 </h2>
@@ -1089,7 +1087,7 @@ export default function Home() {
           <div className="col-sm-6 col-lg-4">
             <div className="service-block-inner">
               <h2 className="service-title">
-                <Link style={{ color: "#c73176" }} href="/VETERINARYMEDICINE/">
+                <Link style={{ color: "#c73176" }} href="/VETERINARY/">
                   <a>VETERINARY MEDICINE PROJECT TOPICS</a>
                 </Link>
               </h2>
