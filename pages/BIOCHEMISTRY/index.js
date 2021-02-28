@@ -29,7 +29,7 @@ const BIOCHEMISTRYL = () => {
 
   return (
     <div>
-      <NextSeo title="" description"" />"
+      <NextSeo title="" description="" />"
       <div className="all-title-box">
         <div className="container">
           <div className="row">

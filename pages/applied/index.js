@@ -29,7 +29,10 @@ const Planets = () => {
 
   return (
     <div>
-      <NextSeo title="" description="" />
+      <NextSeo
+        title="List of Applied Science Project Topics and Materials in PDF"
+        description="List of Applied Science Project Topics and Materials PDF · List of Research Topics and Materials in Applied Science · Nutritional Phytochemical And Microbial ..."
+      />
       <div className="all-title-box">
         <div className="container">
           <div className="row">

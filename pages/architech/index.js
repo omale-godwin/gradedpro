@@ -29,7 +29,11 @@ const Planets = () => {
 
   return (
     <div>
-      <NextSeo title="" description="" />
+      <NextSeo
+        title="List of Architecture Project Topics and Materials in PDF & DOC ..."
+        description="List of Architecture Project Topics and Materials PDF. Home List of Architecture Project Topics and Materials PDF. Browse through the architecture project topics ...
+"
+      />
       <div className="all-title-box">
         <div className="container">
           <div className="row">
