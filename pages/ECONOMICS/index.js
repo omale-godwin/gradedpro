@@ -2,6 +2,8 @@ import react, { useState } from "react";
 import { useQuery, QueryClient, QueryClientProvider } from "react-query";
 import Link from "next/link";
 import parser from "html-react-parser";
+import ReactLoading from "react-loading";
+import { NextSeo } from "next-seo";
 import { ReactQueryDevtools } from "react-query/devtools";
 
 const queryClient = new QueryClient();
@@ -26,6 +28,7 @@ const ECONOMICS = () => {
 
   return (
     <div>
+      <NextSeo title="" description="" />
       <div className="all-title-box">
         <div className="container">
           <div className="row">
@@ -53,11 +56,19 @@ const ECONOMICS = () => {
               {" "}
               <h2>
                 {isLoading ? (
-                  <div>Loading ....Data</div>
+                  <span className="d-flex justify-content-center text-center">
+                    {" "}
+                    <ReactLoading type="spokes" color="red" />
+                    Loading... Data
+                  </span>
                 ) : isError ? (
                   <div>Error: {error.message}</div>
                 ) : isFetching ? (
-                  <span> Loading...</span>
+                  <span className="d-flex justify-content-center text-center">
+                    {" "}
+                    <ReactLoading type="spokes" color="red" />
+                    Loading... Data
+                  </span>
                 ) : (
                   <div className="services-box-main">
                     <div className="container">
@@ -87,16 +98,17 @@ const ECONOMICS = () => {
                         <div className="col-lg-12">
                           <div className="special-menu text-center">
                             <div className="button-group filter-button-group">
-                              <button
+                              <a
+                                href="#"
                                 className="btn btn-danger"
                                 onClick={() =>
                                   setPage((old) => Math.max(old - 1, 1))
                                 }
                                 disabled={page === 1}>
                                 Previous Page
-                              </button>{" "}
-                              <button
-                                href="#top"
+                              </a>{" "}
+                              <a
+                                href="#"
                                 className="btn btn-danger"
                                 onClick={() => {
                                   setPage((old) => old + 1);
@@ -106,7 +118,7 @@ const ECONOMICS = () => {
                                 // Disable the Next Page button until we know a next page is available
                                 disabled={isPreviousData}>
                                 Next Page
-                              </button>
+                              </a>
                             </div>
                             <br />
                             <br />

@@ -3,6 +3,9 @@ import { useQuery, QueryClient, QueryClientProvider } from "react-query";
 import Link from "next/link";
 import parser from "html-react-parser";
 import { ReactQueryDevtools } from "react-query/devtools";
+import ReactLoading from "react-loading";
+import { NextSeo } from "next-seo";
+import nextSEO from "next-seo/lib/meta/nextSEO";
 
 const queryClient = new QueryClient();
 
@@ -27,6 +30,7 @@ const COMPUTERENGL = () => {
 
   return (
     <div>
+      <NextSeo title="" description="" />
       <div className="all-title-box">
         <div className="container">
           <div className="row">
@@ -54,11 +58,19 @@ const COMPUTERENGL = () => {
               {" "}
               <h2>
                 {isLoading ? (
-                  <div>Loading ....Data</div>
+                  <span className="d-flex justify-content-center text-center">
+                    {" "}
+                    <ReactLoading type="spokes" color="red" />
+                    Loading... Data
+                  </span>
                 ) : isError ? (
                   <div>Error: {error.message}</div>
                 ) : isFetching ? (
-                  <span> Loading...</span>
+                  <span className="d-flex justify-content-center text-center">
+                    {" "}
+                    <ReactLoading type="spokes" color="red" />
+                    Loading... Data
+                  </span>
                 ) : (
                   <div className="services-box-main">
                     <div className="container">
@@ -88,16 +100,16 @@ const COMPUTERENGL = () => {
                         <div className="col-lg-12">
                           <div className="special-menu text-center">
                             <div className="button-group filter-button-group">
-                              <button
+                              <a
                                 className="btn btn-danger"
                                 onClick={() =>
                                   setPage((old) => Math.max(old - 1, 1))
                                 }
                                 disabled={page === 1}>
                                 Previous Page
-                              </button>{" "}
-                              <button
-                                href="#top"
+                              </a>{" "}
+                              <a
+                                href="#"
                                 className="btn btn-danger"
                                 onClick={() => {
                                   setPage((old) => old + 1);
@@ -107,12 +119,12 @@ const COMPUTERENGL = () => {
                                 // Disable the Next Page button until we know a next page is available
                                 disabled={isPreviousData}>
                                 Next Page
-                              </button>
+                              </a>
                             </div>
                             <br />
                             <br />
                             <button
-                              href="#top"
+                              href="#"
                               disabled
                               className="btn btn-danger button-group filter-button-group">
                               Current Page: {page} 0f 81

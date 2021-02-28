@@ -1,5 +1,7 @@
 import react, { useState } from "react";
 import { useQuery, QueryClient, QueryClientProvider } from "react-query";
+import ReactLoading from "react-loading";
+import { NextSeo } from "next-seo";
 import Link from "next/link";
 import parser from "html-react-parser";
 import { ReactQueryDevtools } from "react-query/devtools";
@@ -54,11 +56,19 @@ const URBAN = () => {
               {" "}
               <h2>
                 {isLoading ? (
-                  <div>Loading ....Data</div>
+                  <span className="d-flex justify-content-center text-center">
+                    {" "}
+                    <ReactLoading type="spokes" color="red" />
+                    Loading... Data
+                  </span>
                 ) : isError ? (
                   <div>Error: {error.message}</div>
                 ) : isFetching ? (
-                  <span> Loading...</span>
+                  <span className="d-flex justify-content-center text-center">
+                    {" "}
+                    <ReactLoading type="spokes" color="red" />
+                    Loading... Data
+                  </span>
                 ) : (
                   <div className="services-box-main">
                     <div className="container">
