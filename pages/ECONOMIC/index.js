@@ -5,7 +5,6 @@ import parser from "html-react-parser";
 import { ReactQueryDevtools } from "react-query/devtools";
 import ReactLoading from "react-loading";
 import { NextSeo } from "next-seo";
-import nextSEO from "next-seo/lib/meta/nextSEO";
 
 const queryClient = new QueryClient();
 
