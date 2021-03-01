@@ -28,6 +28,11 @@ const COMPUTERL = () => {
 
   return (
     <div>
+      <NextSeo
+        title="COMPUTER SCIENCE FREE UNDERGRADUATE PROJECT "
+        description="COMPUTER SCIENCE PROJECT TOPICS FOR FINAL YEAR · 1. DESIGN AND IMPLEMENTATION OF A COMPUTERIZED INFORMATION SYSTEM FOR A ...
+"
+      />
       <div className="all-title-box">
         <div className="container">
           <div className="row">
