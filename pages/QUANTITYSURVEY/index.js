@@ -5,6 +5,7 @@ import parser from "html-react-parser";
 import { ReactQueryDevtools } from "react-query/devtools";
 import ReactLoading from "react-loading";
 import { NextSeo } from "next-seo";
+import nextSEO from "next-seo/lib/meta/nextSEO";
 
 const queryClient = new QueryClient();
 
@@ -29,6 +30,7 @@ const QUANTITYSURVEY = () => {
 
   return (
     <div>
+      <nextSEO title="" data="" />
       <div className="all-title-box">
         <div className="container">
           <div className="row">
@@ -100,16 +102,17 @@ const QUANTITYSURVEY = () => {
                         <div className="col-lg-12">
                           <div className="special-menu text-center">
                             <div className="button-group filter-button-group">
-                              <button
+                              <a
+                                href="#"
                                 className="btn btn-danger"
                                 onClick={() =>
                                   setPage((old) => Math.max(old - 1, 1))
                                 }
                                 disabled={page === 1}>
                                 Previous Page
-                              </button>{" "}
-                              <button
-                                href="#top"
+                              </a>{" "}
+                              <a
+                                href="#"
                                 className="btn btn-danger"
                                 onClick={() => {
                                   setPage((old) => old + 1);
@@ -119,7 +122,7 @@ const QUANTITYSURVEY = () => {
                                 // Disable the Next Page button until we know a next page is available
                                 disabled={isPreviousData}>
                                 Next Page
-                              </button>
+                              </a>
                             </div>
                             <br />
                             <br />

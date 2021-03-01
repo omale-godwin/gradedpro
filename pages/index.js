@@ -219,9 +219,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link style={{ color: "#c73176" }} href="/COMPUTERENG/">
-                    <a>COMPUTER ENGINEERING</a>
-                  </Link>
+                  <a href="/COMPUTERENG/">COMPUTER ENGINEERING</a>
                 </h2>
                 <p>
                   These are Computer Engineering Science department project
@@ -234,9 +232,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link style={{ color: "#c73176" }} href="/COMMERCE/">
-                    <a>COMMERCE</a>
-                  </Link>
+                  <a href="/COMMERCE/">COMMERCE</a>
                 </h2>
                 <p>
                   These are COMMERCE department project topics with available
@@ -281,9 +277,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link style={{ color: "#c73176" }} href="/ECONOMICS/">
-                    <a>ECONOMICS PROJECT TOPIC & MATERIALS</a>
-                  </Link>
+                  <a href="/ECONOMICS/">ECONOMICS PROJECT TOPIC & MATERIALS</a>
                 </h2>
                 <p>
                   These are Economics department project topics with available
@@ -299,9 +293,9 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link style={{ color: "#c73176" }} href="/EDUCATION/">
-                    <a>EDUCATION PROJECT TOPICS AND MATERIALS</a>
-                  </Link>
+                  <a href="/EDUCATION/">
+                    EDUCATION PROJECT TOPICS AND MATERIALS
+                  </a>
                 </h2>
                 <p>
                   These are Education department project topics with available
@@ -314,9 +308,9 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link style={{ color: "#c73176" }} href="/ELECTRICAL/">
-                    <a>ELECTRICAL & ELECTRONICS ENGINEERING</a>
-                  </Link>
+                  <a href="/ELECTRICAL/">
+                    ELECTRICAL & ELECTRONICS ENGINEERING
+                  </a>
                 </h2>
                 <p>
                   These are Electrical & Electronic Engineering Science
@@ -329,9 +323,7 @@ export default function Home() {
             <div className="col-sm-6 col-lg-4">
               <div className="service-block-inner">
                 <h2 className="service-title">
-                  <Link style={{ color: "#c73176" }} href="/ENGLISH/">
-                    <a>ENGLISH LANGUAGE & LITERATURE</a>
-                  </Link>
+                  <a href="/ENGLISH/">ENGLISH LANGUAGE & LITERATURE</a>
                 </h2>
                 <p>
                   These are English Language & Literature department project

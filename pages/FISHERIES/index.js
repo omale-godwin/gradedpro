@@ -29,6 +29,7 @@ const FISHERIES = () => {
 
   return (
     <div>
+      <NextSeo title="" description="" />
       <div className="all-title-box">
         <div className="container">
           <div className="row">

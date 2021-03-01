@@ -29,6 +29,7 @@ const INTERNATIONALRELATIONS = () => {
 
   return (
     <div>
+      <NextSeo title="" description="" />
       <div className="all-title-box">
         <div className="container">
           <div className="row">
@@ -101,16 +102,17 @@ const INTERNATIONALRELATIONS = () => {
                         <div className="col-lg-12">
                           <div className="special-menu text-center">
                             <div className="button-group filter-button-group">
-                              <button
+                              <a
+                                href="#"
                                 className="btn btn-danger"
                                 onClick={() =>
                                   setPage((old) => Math.max(old - 1, 1))
                                 }
                                 disabled={page === 1}>
                                 Previous Page
-                              </button>{" "}
-                              <button
-                                href="#top"
+                              </a>{" "}
+                              <a
+                                href="#"
                                 className="btn btn-danger"
                                 onClick={() => {
                                   setPage((old) => old + 1);
@@ -120,7 +122,7 @@ const INTERNATIONALRELATIONS = () => {
                                 // Disable the Next Page button until we know a next page is available
                                 disabled={isPreviousData}>
                                 Next Page
-                              </button>
+                              </a>
                             </div>
                             <br />
                             <br />
