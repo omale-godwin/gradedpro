@@ -7,9 +7,9 @@ export default function Home() {
     <>
       <div className="container">
         <Carousel viewportWidth="100%" autoplay={true} cellPadding={5}>
-          <img src="https://placekitten.com/200/300" />
-          <img src="https://placekitten.com/300/300" />
-          <img src="https://placekitten.com/400/300" />
+          <img src="images/chatbot.jpg" />
+          <img src="COMPUTER.jpg" />
+          <img src="images/for.jpg" />
         </Carousel>
         ,
       </div>
