@@ -1,10 +1,12 @@
 import Link from "next/link";
 import Carousel from "react-img-carousel";
 require("react-img-carousel/lib/carousel.css");
+import Head from "next/head";
 
 export default function Home() {
   return (
     <>
+      <Head></Head>
       <div className="container">
         <Carousel viewportWidth="100%" autoplay={true} cellPadding={5}>
           <img src="images/chatbot.jpg" />

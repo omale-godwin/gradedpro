@@ -31,11 +31,12 @@ class MyDocument extends Document {
           <link rel="stylesheet" href="css/responsive.css" />
 
           <link rel="stylesheet" href="css/custom.css" />
+          <meta
+            name="google-site-verification"
+            content="u89Vdm-ka5ejYk4kPW7iAIcTm_nRBK_B799OUzXP_B8"
+          />
         </Head>
-        <meta
-          name="google-site-verification"
-          content="u89Vdm-ka5ejYk4kPW7iAIcTm_nRBK_B799OUzXP_B8"
-        />
+
         <body>
           <Main />
           <NextScript />
