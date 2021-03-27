@@ -30,7 +30,9 @@ export default async function (req, res) {
     try {
       let applied = await AppliedScienceModel.find({
         id: { $gt: 10 * (page - 1) },
-      }).limit(20);
+      })
+        .sort({ $id: -1 })
+        .limit(20);
       applied = await JSON.parse(JSON.stringify(applied));
 
       res.status(200).send(applied);
