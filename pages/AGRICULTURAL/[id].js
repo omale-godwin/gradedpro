@@ -2,10 +2,15 @@ import React from "react";
 import dbConnect from "../../components/connection/database";
 import AGRICULTURALModel from "../../components/models/AGRICULTURAL";
 import parser from "html-react-parser";
+import { NextSeo } from "next-seo";
 
 const AccountS = ({ post }) => {
   return (
     <div>
+         <NextSeo
+        title="{parser(post[0].title}"
+        description="{parser(post[0].title}"
+      />
       <div className="all-title-box">
         <div className="container">
           <div className="row">

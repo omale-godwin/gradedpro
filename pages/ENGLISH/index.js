@@ -29,12 +29,19 @@ const ENGLISHL = () => {
 
   return (
     <div>
+         <NextSeo
+        title=" English Language Project Topics & Research Materials | Final Year Research Project Topics With Free Chapter One
+        "
+        description=" English Language Project Topics & Research Materials | Final Year Research Project Topics With Free Chapter One
+        "
+      />
+     
       <div className="all-title-box">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <h2 style={{ color: "white" }}>
-                <a>BUSINESS ADMINISTRATIVE PROJECT TOPICS AND MATERIALS</a>
+                <a>English Language Project Topics & Research Materials </a>
               </h2>
               <ul className="breadcrumb">
                 <li className="breadcrumb-item">
