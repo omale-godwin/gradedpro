@@ -29,6 +29,13 @@ const CHEMICALS = () => {
 
   return (
     <div>
+         <NextSeo
+        title=" Chemistry Project Topics & Research Materials | Final Year Research Project Topics With Free Chapter One
+        "
+        description=" Chemistry Project Topics & Research Materials | Final Year Research Project Topics With Free Chapter One
+        "
+/>
+    
       <div className="all-title-box">
         <div className="container">
           <div className="row">

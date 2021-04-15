@@ -39,7 +39,7 @@ const Planets = () => {
           <div className="row">
             <div className="col-lg-12">
               <h2 style={{ color: "white" }}>
-                <a>Accounting Project Materials</a>
+                <a>Architecture Project Materials</a>
               </h2>
               <ul className="breadcrumb">
                 <li className="breadcrumb-item">

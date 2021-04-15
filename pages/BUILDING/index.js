@@ -29,13 +29,13 @@ const Planets = () => {
 
   return (
     <div>
-      <NextSeo title="" description="" />
+      <NextSeo title="BUILDING TECHNOLOGY Project Materials" description="BUILDING TECHNOLOGY Project Materials" />
       <div className="all-title-box">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
               <h2 style={{ color: "white" }}>
-                <a>Accounting Project Materials</a>
+                <a>BUILDING TECHNOLOGY Project Materials</a>
               </h2>
               <ul className="breadcrumb">
                 <li className="breadcrumb-item">

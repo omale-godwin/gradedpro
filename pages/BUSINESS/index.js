@@ -29,6 +29,10 @@ const BUSINESSL = () => {
 
   return (
     <div>
+        <NextSeo
+        title="  Business Admin. and Management Project Topics & Research Materials | Final Year Research Project Topics With Free Chapter One"
+        description="  Business Admin. and Management Project Topics & Research Materials | Final Year Research Project Topics With Free Chapter OnE"
+/>
       <div className="all-title-box">
         <div className="container">
           <div className="row">

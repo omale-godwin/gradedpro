@@ -29,7 +29,7 @@ const BIOCHEMISTRYL = () => {
 
   return (
     <div>
-      <NextSeo title="" description="" />"
+      <NextSeo title="BIO-CHEMISTRY PROJECT TOPICS AND MATERIALS" description="BIO-CHEMISTRY PROJECT TOPICS AND MATERIALS CHAPTER 1 TO 5" />"
       <div className="all-title-box">
         <div className="container">
           <div className="row">

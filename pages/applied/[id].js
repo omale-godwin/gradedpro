@@ -6,6 +6,10 @@ import parser from "html-react-parser";
 const AccountS = ({ post }) => {
   return (
     <div>
+        <NextSeo
+        title="List of Applied Science Project Topics and Materials in PDF"
+        description="List of Applied Science Project Topics and Materials PDF · List of Research Topics and Materials in Applied Science · Nutritional Phytochemical And Microbial ..."
+      />
       <div className="all-title-box">
         <div className="container">
           <div className="row">

@@ -6,6 +6,11 @@ import parser from "html-react-parser";
 const AccountS = ({ post }) => {
   return (
     <div>
+         <NextSeo
+        title="BANKING FINANCE UNDERGRADUATE PROJECT TOPICS"
+        description="BANKING FINANCE Undergraduate Project Topics, Research Works and Materials, Largest Undergraduate Projects Repository, Research Works and Materials.
+"
+      />
       <div className="all-title-box">
         <div className="container">
           <div className="row">
