@@ -6,8 +6,17 @@ import Head from "next/head";
 export default function Home() {
   return (
     <>
-      <Head></Head>
+      <Head>
+        <title>PROJECT TOPICS AND MATERIALS FOR FINAL YEAR STUDENTS</title>
+      </Head>
       <div className="container">
+      <NextSeo
+          title="PROJECT TOPICS AND MATERIALS FOR FINAL YEAR STUDENTS"
+          description="Find complete project topic and research material
+       for all fields of study and level of education. We provide educational services such as Project Writing, Research Analysis, Term Paper, 
+       Thesis Writing, Proposal, Dissertation, Journal, Assignment etc.
+"
+        />
         <Carousel viewportWidth="100%" autoplay={true} cellPadding={5}>
           <img src="images/chatbot.jpg" />
           <img src="COMPUTER.jpg" />
