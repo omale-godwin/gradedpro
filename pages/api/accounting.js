@@ -30,14 +30,12 @@ export default async function (req, res) {
 
   if (method === "GET") {
     try {
-      let accounts = await AccountingModel.find({
-        id: { $lt: 10 * (page - 1) },
-      })
-        .sort({ id: -1 })
-        .limit(20);
-      accounts = await JSON.parse(JSON.stringify(accounts));
+      let agric = await AccountingModel.find({
+        id: { $gt: 10 * (page - 1) },
+      }).limit(20);
+      agric = await JSON.parse(JSON.stringify(agric));
 
-      res.status(200).send(accounts);
+      res.status(200).send(agric);
     } catch (error) {
       console.log(
         "error has occure whaen getting data from accounting document",
