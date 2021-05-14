@@ -16,7 +16,7 @@ export default function Header() {
               aria-label="Toggle navigation">
               <i className="fa fa-bars"></i>
             </button>
-            <a className="navbar-brand" href="index.html">
+            <a className="navbar-brand" href="/">
               <img src="images/logo.png" className="logo" alt="" />
             </a>
           </div>
