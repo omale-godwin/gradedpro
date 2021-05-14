@@ -96,12 +96,6 @@ export default function Header() {
                   <i className="fa fa-search"></i>
                 </a>
               </li>
-              <li className="side-menu">
-                <a href="#">
-                  <i className="fa fa-shopping-bag"></i>
-                  <span className="badge">3</span>
-                </a>
-              </li>
             </ul>
           </div>
         </div>
