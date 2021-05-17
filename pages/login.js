@@ -9,7 +9,9 @@ export default function Login() {
         data-ad-client="ca-pub-3951180030872988"
         data-ad-slot="4262502779"
         data-ad-format="auto"
-        data-full-width-responsive="true"></ins>
+        data-full-width-responsive="true">
+        jjjjjjjjjjjjjjjjjj
+      </ins>
     </div>
   );
 }
