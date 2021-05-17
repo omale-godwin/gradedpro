@@ -49,6 +49,10 @@ class MyDocument extends Document {
             data-ad-client="ca-pub-3951180030872988"
             async
             src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <script
+            async
+            src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
 
           <script src="js/jquery-3.2.1.min.js"></script>
           <script src="js/popper.min.js"></script>
