@@ -1,13 +1,9 @@
 import React from "react";
+import dbConnect from "../../components/connection/database";
+import CIModel from "../../components/models/CI";
 import parser from "html-react-parser";
 
-import "bootstrap/dist/css/bootstrap.css";
-
-import dbConnect from "../../components/connection/database";
-import AccountingModel from "../../components/models/accounting";
-
-const AccountingSinglec = ({ post }) => {
-  const { title, content } = post;
+const CIVILL = ({ post }) => {
   return (
     <div>
       <div className="all-title-box">
@@ -44,7 +40,7 @@ const AccountingSinglec = ({ post }) => {
                 {" "}
                 <img
                   className="img-thumbnail img-fluid"
-                  src="images/about-img.jpg"
+                  src="/public/images/about-img.jpg"
                   alt=""
                 />
               </div>
@@ -56,14 +52,15 @@ const AccountingSinglec = ({ post }) => {
   );
 };
 
-export default AccountingSinglec;
+export default CIVILL;
 
 export async function getServerSideProps(context) {
   await dbConnect();
-  let post = await AccountingModel.find({ _id: context.params.id });
-  post = JSON.parse(JSON.stringify(post));
 
+  let post = await CIModel.find({ _id: context.params.id });
+  post = JSON.parse(JSON.stringify(post));
   console.log(post);
+
   return {
     props: {
       post,

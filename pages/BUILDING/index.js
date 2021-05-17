@@ -16,20 +16,17 @@ const Planets = () => {
     return result.json();
   };
 
-  const {
-    isLoading,
-    isError,
-    error,
-    data,
-    isFetching,
-    isPreviousData,
-  } = useQuery(["projects", page], () => fetchPanets(page), {
-    keepPreviousData: true,
-  });
+  const { isLoading, isError, error, data, isFetching, isPreviousData } =
+    useQuery(["projects", page], () => fetchPanets(page), {
+      keepPreviousData: true,
+    });
 
   return (
     <div>
-      <NextSeo title="BUILDING TECHNOLOGY Project Materials" description="BUILDING TECHNOLOGY Project Materials" />
+      <NextSeo
+        title="BUILDING TECHNOLOGY Project Materials"
+        description="BUILDING TECHNOLOGY Project Materials"
+      />
       <div className="all-title-box">
         <div className="container">
           <div className="row">

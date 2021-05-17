@@ -8,11 +8,11 @@ import { NextSeo } from "next-seo";
 
 const queryClient = new QueryClient();
 
-const Planets = () => {
+const CIVIL = () => {
   const [page, setPage] = useState(1);
   const fetchPanets = async (page) => {
     console.log(page);
-    const result = await fetch(`/api/appliedscience?page=${page}`);
+    const result = await fetch(`/api/CI?page=${page}`);
     return result.json();
   };
 
@@ -23,10 +23,7 @@ const Planets = () => {
 
   return (
     <div>
-      <NextSeo
-        title="List of Applied Science Project Topics and Materials in PDF"
-        description="List of Applied Science Project Topics and Materials PDF · List of Research Topics and Materials in Applied Science · Nutritional Phytochemical And Microbial ..."
-      />
+      <NextSeo title="" description="" />
       <div className="all-title-box">
         <div className="container">
           <div className="row">
@@ -78,7 +75,7 @@ const Planets = () => {
                                 <Link
                                   key={index}
                                   className="list-group-item "
-                                  href={`/applied/${document._id}`}>
+                                  href={`/CIVIL/${document._id}`}>
                                   <a>
                                     {parser(
                                       document.title.replace(/\n/gi, "<br />")
@@ -155,7 +152,7 @@ const Planets = () => {
 export default function Wraped() {
   return (
     <QueryClientProvider client={queryClient}>
-      <Planets />
+      <CIVIL />
       <ReactQueryDevtools initialIsOpen={false} />
     </QueryClientProvider>
   );

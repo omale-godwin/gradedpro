@@ -16,16 +16,10 @@ const CHEMISTRYL = () => {
     return result.json();
   };
 
-  const {
-    isLoading,
-    isError,
-    error,
-    data,
-    isFetching,
-    isPreviousData,
-  } = useQuery(["projects", page], () => fetchPanets(page), {
-    keepPreviousData: true,
-  });
+  const { isLoading, isError, error, data, isFetching, isPreviousData } =
+    useQuery(["projects", page], () => fetchPanets(page), {
+      keepPreviousData: true,
+    });
 
   return (
     <div>

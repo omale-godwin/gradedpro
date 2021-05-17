@@ -13,7 +13,7 @@ export default function RequestProhect() {
 
   async function handleSubmit(event) {
     event.preventDefault();
-    const resp = await fetch(`/api/COMMERCE`, {
+    const resp = await fetch(`/api/PHARMACEUTICAL`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
