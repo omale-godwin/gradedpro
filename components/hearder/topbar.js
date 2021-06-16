@@ -10,32 +10,11 @@ export default function Topbar() {
               <div id="offer-box" className="carouselTicker">
                 <ul className="offer-box">
                   <li>
-                    <i className="fab fa-opencart"></i> Artificial intelligent
+                    <i className="fab fa-opencart"></i> gradedproject1@gmail.com
                   </li>
+
                   <li>
-                    <i className="fab fa-opencart"></i> machine learning
-                  </li>
-                  <li>
-                    <i className="fab fa-opencart"></i> andriod and ios
-                    application
-                  </li>
-                  <li>
-                    <i className="fab fa-opencart"></i> final year project for
-                    all department
-                  </li>
-                  <li>
-                    <i className="fab fa-opencart"></i> thesis and dissertation
-                    for all department or courses
-                  </li>
-                  <li>
-                    <i className="fab fa-opencart"></i> 50% - 80% off on Fashion
-                  </li>
-                  <li>
-                    <i className="fab fa-opencart"></i> 20% off Entire Purchase
-                    Promo code: offT20
-                  </li>
-                  <li>
-                    <i className="fab fa-opencart"></i> Off 50%! Shop Now
+                    <i className="fab fa-opencart"></i> +2347064115889
                   </li>
                 </ul>
               </div>
@@ -68,7 +47,7 @@ export default function Topbar() {
                 </li>
                 <div className="right-phone-box">
                   <p>
-                    Call US :- <a href="#">+234 903216744</a>
+                    Call US :- <a href="#">+234 7064115889</a>
                   </p>
                 </div>
               </ul>
